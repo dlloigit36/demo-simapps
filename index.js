@@ -15,7 +15,7 @@ document.querySelector(".toggle-mode").addEventListener("click", function(){
 
 });
 
-const d = new Date();
+const d = new Date("July 21, 2023");
 let year = d.getFullYear();
 var copyRightText = "© " + year + " Simapps.net";
 
