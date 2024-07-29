@@ -14,3 +14,9 @@ document.querySelector(".toggle-mode").addEventListener("click", function(){
     }
 
 });
+
+const d = new Date();
+let year = d.getFullYear();
+var copyRightText = "© " + year + " Simapps.net";
+
+document.querySelector(".copy-right-text").innerHTML = copyRightText;
